@@ -52,27 +52,25 @@ Sleep 15
 Send {1 down}
 Sleep 15
 Send {e up}{1 up}
+KeyWait, F1
 return
+
 *F2::
 Send {e down}
 Sleep 15
 Send {2 down}
 Sleep 15
 Send {e up}{2 up}
+KeyWait, F2
 return
+
 *F3::
 Send {e down}
 Sleep 15
 Send {3 down}
 Sleep 15
 Send {e up}{3 up}
-return
-*F4::
-Send {e down}
-Sleep 15
-Send {4 down}
-Sleep 15
-Send {e up}{4 up}
+KeyWait, F3
 return
 
 ; Stop script for alt+tabbing
