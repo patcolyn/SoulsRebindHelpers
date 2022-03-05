@@ -81,6 +81,4 @@ Tab::x
 +Tab::z
 
 ; Stop script for alt+tabbing
-LWin::
-Suspend On
-return
+LWin::Suspend On
