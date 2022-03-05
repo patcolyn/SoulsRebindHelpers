@@ -76,6 +76,15 @@ Send {e up}{3 up}
 KeyWait, F3
 return
 
+*F4::
+Send {e down}
+Sleep 15
+Send {4 down}
+Sleep 15
+Send {e up}{4 up}
+KeyWait, F4
+return
+
 ; Menu controls
 Tab::x
 +Tab::z
