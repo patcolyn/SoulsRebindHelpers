@@ -4,15 +4,13 @@ SetTimer, TabbedLabel, 100
 
 ; Disable/Enable script on focus change
 TabbedLabel:
-If (!WinActive("ELDEN RING") && !Tabbed)
-{
-Tabbed := True
-Suspend On
+If (!WinActive("ELDEN RING") && !Tabbed) {
+	Tabbed := True
+	Suspend On
 }
-else if (WinActive("ELDEN RING") && Tabbed)
-{
-Tabbed := False
-Suspend Off
+else if (WinActive("ELDEN RING") && Tabbed) {
+	Tabbed := False
+	Suspend Off
 }
 return
 
@@ -20,10 +18,10 @@ return
 ; Roll bind
 *Alt::Space
 *Space::
-Send {Space down}
-Sleep 15
-Send {Space up}
-KeyWait, Space
+	Send {Space down}
+	Sleep 15
+	Send {Space up}
+	KeyWait, Space
 return
 
 ; Map
@@ -31,58 +29,58 @@ return
 
 ; Wield swap
 *XButton1::
-Send {e down}
-Sleep 15
-Send {LButton down}
-Sleep 15
-Send {e up}{LButton up}
-KeyWait, XButton1
+	Send {e down}
+	Sleep 15
+	Send {LButton down}
+	Sleep 15
+	Send {e up}{LButton up}
+	KeyWait, XButton1
 return
 
 *XButton2::
-Send {e down}
-Sleep 15
-Send {RButton down}
-Sleep 15
-Send {e up}{RButton up}
-KeyWait, XButton2
+	Send {e down}
+	Sleep 15
+	Send {RButton down}
+	Sleep 15
+	Send {e up}{RButton up}
+	KeyWait, XButton2
 return
 
 ; Pouch items
 *F1::
-Send {e down}
-Sleep 15
-Send {1 down}
-Sleep 15
-Send {e up}{1 up}
-KeyWait, F1
+	Send {e down}
+	Sleep 15
+	Send {1 down}
+	Sleep 15
+	Send {e up}{1 up}
+	KeyWait, F1
 return
 
 *F2::
-Send {e down}
-Sleep 15
-Send {2 down}
-Sleep 15
-Send {e up}{2 up}
-KeyWait, F2
+	Send {e down}
+	Sleep 15
+	Send {2 down}
+	Sleep 15
+	Send {e up}{2 up}
+	KeyWait, F2
 return
 
 *F3::
-Send {e down}
-Sleep 15
-Send {3 down}
-Sleep 15
-Send {e up}{3 up}
-KeyWait, F3
+	Send {e down}
+	Sleep 15
+	Send {3 down}
+	Sleep 15
+	Send {e up}{3 up}
+	KeyWait, F3
 return
 
 *F4::
-Send {e down}
-Sleep 15
-Send {4 down}
-Sleep 15
-Send {e up}{4 up}
-KeyWait, F4
+	Send {e down}
+	Sleep 15
+	Send {4 down}
+	Sleep 15
+	Send {e up}{4 up}
+	KeyWait, F4
 return
 
 ; Menu controls
