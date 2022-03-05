@@ -76,6 +76,10 @@ Send {e up}{3 up}
 KeyWait, F3
 return
 
+; Menu controls
+Tab::x
++Tab::z
+
 ; Stop script for alt+tabbing
 LWin::
 Suspend On
