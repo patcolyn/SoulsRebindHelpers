@@ -36,13 +36,16 @@ Sleep 15
 Send {LButton down}
 Sleep 15
 Send {e up}{LButton up}
+KeyWait, XButton1
 return
+
 *XButton2::
 Send {e down}
 Sleep 15
 Send {RButton down}
 Sleep 15
 Send {e up}{RButton up}
+KeyWait, XButton2
 return
 
 ; Pouch items
