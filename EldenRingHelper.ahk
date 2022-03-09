@@ -84,8 +84,8 @@ return
 return
 
 ; Menu controls
-Tab::x
-+Tab::z
+; Tab::x
+; +Tab::z
 
 ; Stop script for alt+tabbing
 LWin::Suspend On
